@@ -162,3 +162,94 @@ header {
     text-align: left;
     text-decoration: underline;
 }
+
+/*/ FOOTER /*/
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+footer ul {
+    display: flex;
+}
+
+
+footer h4 {
+    color: rgb(96, 123, 150);
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 18px;
+}
+
+.footer-item {
+    width: 52px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(30, 45, 61);
+    border-right: 1px solid rgb(30, 45, 61);
+    border-top: 3px solid transparent;
+    transition: 250ms border-top;
+}
+
+.footer-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-item:hover,
+.footer-item:active,
+.footer-item:focus {
+    border-top: 3px solid rgb(254, 165, 95);
+    cursor: pointer;
+}
+
+.footer-item:hover svg path {
+    transition: 250ms fill;
+    fill: #607b96;
+}
+
+.git-link-footer {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgb(30, 45, 61);
+    border-top: 3px solid transparent;
+    transition: 250ms border-top, 250ms color;
+    padding-right: 24.02px;
+    height: 49.74px;
+    padding-left: 23px;
+    color: rgb(96, 123, 150);
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.git-link-footer:hover,
+.git-link-footer:focus,
+.git-link-footer:active {
+    border-top: 3px solid rgb(254, 165, 95);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.svg-git {
+    padding-left: 6.98px;
+}
+
+.git-link-footer:hover svg path {
+    transition: 250ms fill;
+    fill: #607b96;
+}
