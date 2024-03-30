@@ -37,20 +37,27 @@ header {
     display: flex;
 }
 
-.nav-span {
-    border: 1px solid rgb(30, 45, 61);
-}
-
 .nav-item {
     width: 121px;
     height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left: 1px solid rgb(30, 45, 61);
+    border-right: 1px solid rgb(30, 45, 61);
+    border-bottom: 3px solid transparent;
+    transition: 250ms border-bottom;
 }
 
 .nav-item:hover {
     border-bottom: 3px solid rgb(254, 165, 95);
+    cursor: pointer;
+}
+
+.nav-item:hover>a,
+.nav-item:focus>a,
+.nav-item:active>a {
+    color: rgb(255, 255, 255);
 }
 
 .nav-link {
@@ -58,12 +65,100 @@ header {
     transition: color 250ms;
 }
 
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus {
-    color: rgb(255, 255, 255);
+.contact-header-link {
+    margin-left: auto;
+    width: 121px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(96, 123, 150);
+    border-left: 1px solid rgb(30, 45, 61);
+    padding-right: 23.2px;
+    padding-left: 23.98px;
+    border-bottom: 3px solid transparent;
+    transition: 250ms color, 250ms border-bottom;
 }
 
-.contact-header-link {
+.contact-header-link:hover,
+.contact-header-link:focus,
+.contact-header-link:active {
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(254, 165, 95);
+}
+
+/*/ MAIN /U?/  */
+
+.main {
+    margin-left: 311px;
+    margin-top: 265.02px;
+}
+
+.hi-im {
+    color: rgb(229, 233, 240);
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.my-name {
+    color: rgb(229, 233, 240);
+    font-family: 'Fira Code', monospace;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 81px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.my-profession {
+    color: rgb(77, 91, 206);
+    font-family: 'Fira Code', monospace;
+    font-size: 32px;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.my-git {
     color: rgb(96, 123, 150);
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.link-git {
+    color: rgb(77, 91, 206);
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.git {
+    color: rgb(67, 217, 173);
+}
+
+.prv {
+    color: rgb(229, 233, 240);
+}
+
+.a-link {
+    color: rgb(233, 146, 135);
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: underline;
 }
