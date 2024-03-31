@@ -17,6 +17,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+
 }
 
 /*/ Header /*/
@@ -88,10 +89,14 @@ header {
 }
 
 /*/ MAIN /U?/  */
+main {
+    display: flex;
+}
 
 .main {
     margin-left: 311px;
     margin-top: 265.02px;
+
 }
 
 .hi-im {
@@ -163,12 +168,316 @@ header {
     text-decoration: underline;
 }
 
-/*/ FOOTER /*/
+.snake-game-main {
+    margin-top: 180.5px;
+    margin-left: 129px;
+}
+
+.green-svg {
+    /* Green */
+    position: absolute;
+    width: 454px;
+    height: 492px;
+    margin-top: -159.4px;
+    margin-left: -23px;
+    filter: blur(174px);
+    background: rgb(67, 217, 173);
+    opacity: 0.4;
+
+}
+
+.blue-svg {
+    /* Blue */
+    position: absolute;
+    width: 454px;
+    height: 492px;
+    transform: rotate(13.51deg);
+    margin-top: 147.5px;
+    margin-left: 179.2px;
+    filter: blur(174px);
+    background: rgb(77, 91, 206);
+    opacity: 0.4;
+}
+
+.background-game-main {
+    width: 510px;
+    height: 475px;
+    border: 1px solid rgb(12, 22, 22);
+    border-radius: 8px;
+
+    box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(64px);
+    background: linear-gradient(153.43deg, rgba(23, 85, 83, 0.7) 1.705%, rgba(67, 217, 173, 0.09) 81.819%);
+}
+
+.dot-one {
+    width: 13px;
+    height: 13px;
+    box-shadow: inset 0px 1px 2px 0px rgb(26, 130, 119), 2px 2px 4px 0px rgb(13, 67, 65);
+    background: radial-gradient(73.00% 73.00% at 50% 27%, rgb(25, 108, 106) 15.104%, rgb(17, 75, 74) 100%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12.73px;
+    margin-top: 12.08px;
+}
+
+.dot-two {
+    width: 13px;
+    height: 13px;
+    box-shadow: inset 0px 1px 2px 0px rgb(26, 130, 119), 2px 2px 4px 0px rgb(13, 67, 65);
+    background: radial-gradient(73.00% 73.00% at 50% 27%, rgb(25, 108, 106) 15.104%, rgb(17, 75, 74) 100%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: -13px;
+    margin-right: 12.73px;
+}
+
+.dot-three {
+    width: 13px;
+    height: 13px;
+    box-shadow: inset 0px 1px 2px 0px rgb(26, 130, 119), 2px 2px 4px 0px rgb(13, 67, 65);
+    background: radial-gradient(73.00% 73.00% at 50% 27%, rgb(25, 108, 106) 15.104%, rgb(17, 75, 74) 100%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12.73px;
+}
+
+.dot-four {
+    width: 13px;
+    height: 13px;
+    box-shadow: inset 0px 1px 2px 0px rgb(26, 130, 119), 2px 2px 4px 0px rgb(13, 67, 65);
+    background: radial-gradient(73.00% 73.00% at 50% 27%, rgb(25, 108, 106) 15.104%, rgb(17, 75, 74) 100%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: -13px;
+    margin-right: 12.73px;
+}
+
+.dot {
+    width: 5.54px;
+    height: 4.59px;
+}
+
+.game {
+    display: flex;
+}
+
+.back-snake-game {
+    width: 238.69px;
+    height: 405.32px;
+    border-radius: 8px;
+
+    box-shadow: inset 1px 5px 11px 0px rgba(2, 18, 27, 0.71);
+    background: rgba(1, 22, 39, 0.84);
+    margin-left: 30.31px;
+    margin-top: 9.92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contol-arrows-div {
+    width: 181.38px;
+    height: 142px;
+    border-radius: 8px;
+    background: rgba(1, 20, 35, 0.19);
+    margin-top: 9.92px;
+    margin-left: 24.31px;
+}
+
+.contol-arrows-div h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 15.69px;
+    margin-left: 13.19px;
+}
+
+.button-one {
+    width: 49.08px;
+    height: 28.69px;
+    border: 1px solid rgb(30, 45, 61);
+    border-radius: 8px;
+    background: rgb(1, 12, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 66.65px;
+    margin-top: 15.58px;
+}
+
+.button-one-svg {
+    rotate: 270deg;
+    width: 8.5px;
+    height: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-two-svg {
+    width: 8.5px;
+    height: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    rotate: 180deg;
+}
+
+.button-three-svg {
+    width: 8.5px;
+    height: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    rotate: 90deg;
+}
+
+.button-four-svg {
+    width: 8.5px;
+    height: 6px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.flex-buttons {
+    display: flex;
+    gap: 4.38px;
+    margin-top: 4.81px;
+    margin-left: 11.2px;
+}
+
+.button-two {
+    width: 49.08px;
+    height: 28.69px;
+    border: 1px solid rgb(30, 45, 61);
+    border-radius: 8px;
+    background: rgb(1, 12, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-three {
+    width: 49.08px;
+    height: 28.69px;
+    border: 1px solid rgb(30, 45, 61);
+    border-radius: 8px;
+    background: rgb(1, 12, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-four {
+    width: 49.08px;
+    height: 28.69px;
+    border: 1px solid rgb(30, 45, 61);
+    border-radius: 8px;
+    background: rgb(1, 12, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-foods-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20.58px;
+    margin-left: 37.5px;
+    width: 134.46px;
+    height: 18px;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-left: 37.5px;
+    margin-top: 10.92px;
+    width: 135px;
+}
+
+
+.food-item {}
+
+.skip-button {
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 10px 14px 10px 14px;
+    margin-left: 143.69px;
+    margin-top: 126.63px;
+    cursor: pointer;
+}
+
+.food-good-svg {
+    margin-left: 88.17px;
+    margin-top: 52.93px;
+}
+
+.snake {
+    margin-top: 17.77px;
+    margin-left: 94.2px;
+}
+
+.start-game {
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: right;
+    width: 112px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-left: 63.35px;
+    margin-top: auto;
+    margin-bottom: 55.64px;
+    cursor: pointer;
+}
+
+.button-h:hover,
+.button-h:active,
+.button-h:focus {
+    transition: 250ms color, 250ms border, 250ms background-color;
+    color: #01080E;
+    background-color: #FFAC6B;
+    border: 1px solid transparent;
+}
+
+
 
 footer {
     display: flex;
     align-items: center;
-    margin-bottom: auto;
+    margin-top: 153px;
 }
 
 footer ul {
