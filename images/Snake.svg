@@ -1,0 +1,12 @@
+<svg width="60.000000" height="161.000000" viewBox="0 0 60 161" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient id="paint_linear_64_1256_0" x1="3.827148" y1="12.079361" x2="66.999878" y2="130.691010" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#43D9AD"/>
+			<stop offset="1.000000" stop-color="#43D9AD" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<path id="Snake" d="M3.82 3.07L3.82 78.07L55.82 78.07L55.82 " stroke="url(#paint_linear_64_1256_0)" stroke-opacity="1.000000" stroke-width="8.000000" stroke-linecap="round"/>
+</svg>
