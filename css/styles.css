@@ -17,7 +17,15 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
 
+.test {
+    flex-shrink: 0;
 }
 
 /*/ Header /*/
@@ -137,6 +145,10 @@ main {
     line-height: 21px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 81.07px;
+    display: flex;
+    flex-direction: column;
+    gap: 9.6px;
 }
 
 .link-git {
@@ -464,8 +476,7 @@ main {
 }
 
 .button-h:hover,
-.button-h:active,
-.button-h:focus {
+.button-h:active {
     transition: 250ms color, 250ms border, 250ms background-color;
     color: #01080E;
     background-color: #FFAC6B;
@@ -478,6 +489,7 @@ footer {
     display: flex;
     align-items: center;
     margin-top: 153px;
+    margin-top: auto;
 }
 
 footer ul {
